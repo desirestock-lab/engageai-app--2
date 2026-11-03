@@ -1,12 +1,12 @@
 #**BEFORE RUNNING Click on "Copy to Drive" above or File--> Save a Copy in Drive**
 
----
+#---
 
 
 #This example is for a basic, no-frills chatbot.
 
 
----
+#---
 
 #**Prerequisites:**
 
@@ -22,14 +22,14 @@
 
 
 
----
+#---
 
 
 #**Chatbot code begins here**
 
 
 
----
+#---
 
 
 
@@ -210,14 +210,14 @@ else:
 
 
 
----
+#---
 
 
 #**Chatbot code ends here**
 
 
 
----
+#---
 
 
 
@@ -226,8 +226,8 @@ else:
 
 
 
----
----
+#---
+#---
 
 
 
