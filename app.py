@@ -61,7 +61,8 @@ llm = ChatOpenAI(model="gpt-4o-mini")
 
 sysmessage = """You are EngageAI, an Agentic AI Employee Engagement and Training Assistant for TechBridge Solutions.
 
-"""COMPANY CONTEXT:
+COMPANY CONTEXT:
+- Company Name: TechBridge Solutions
 - Company Name: TechBridge Solutions
 - Mission: To empower every employee with the tools, knowledge, and confidence to thrive in a technology-driven workplace.
 - Vision: To be a leading organization where responsible AI adoption and continuous learning drive innovation and inclusive growth.
@@ -220,7 +221,8 @@ else:
 
 
 
-**Step 7.** Log in to https://smith.langchain.com/ to view usage details.
+# **Step 7.** Log in to https://langchain.com to view usage details.
+
 
 
 
@@ -229,19 +231,19 @@ else:
 
 
 
-#**Variations to try**
+# #**Variations to try**
 
-1. Try different user inputs. For example, you could ask for an explanation for specific functions or lines of code.
+# 1. Try different user inputs. For example, you could ask for an explanation for specific functions or lines of code.
 
-2. Alter the system message with "sysmessage". For example, you could try asking for the model to speak informally as if speaking to a friend.
+# 2. Alter the system message with "sysmessage". For example, you could try asking for the model to speak informally as if speaking to a friend.
 
-3. Alter the prompt for getting input. For example, you could try something like "I am a friendly technology support assistant. How can I help you?"
+# 3. Alter the prompt for getting input. For example, you could try something like "I am a friendly technology support assistant. How can I help you?"
 
-**Advanced variations**
+# **Advanced variations**
 
-1. Alter chatbot to keep a memory of the conversation. This requires feeding into the prompt a history of the conversation. (https://python.langchain.com/docs/how_to/chatbots_memory/)
+# 1. Alter chatbot to keep a memory of the conversation. This requires feeding into the prompt a history of the conversation. (https://langchain.com)
 
-2. Try different OpenAI models. (https://platform.openai.com/docs/models). The same structure with minimal changes can call other model provider APIs.
+# 2. Try different OpenAI models. (https://openai.com). The same structure with minimal changes can call other model provider APIs.
 
-3. Create user interface. (https://docs.chainlit.io/integrations/langchain)
+# 3. Create user interface. (https://chainlit.io)
 
