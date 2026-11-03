@@ -50,7 +50,7 @@ from langchain_core.messages import HumanMessage, SystemMessage                 
 os.environ["LANGSMITH_TRACING"] = "true"                                          # permit langsmith to monitor AI process
 os.environ["LANGSMITH_API_KEY"] = getpass.getpass("Enter LangSmith API key: ")    # enter LangSmith API key
 
-**Step 4.** Set up access to LLM. Here that is OpenAI's API. Need an API key here for OpenAI. This prompts you to enter the API key. Paste API key and hit 'Enter'.
+#**Step 4.** Set up access to LLM. Here that is OpenAI's API. Need an API key here for OpenAI. This prompts you to enter the API key. Paste API key and hit 'Enter'.
 
 if not os.environ.get("OPENAI_API_KEY"):                                          # if there is no OPENAI_API_KEY in the environment variables
   os.environ["OPENAI_API_KEY"] = getpass.getpass("Enter API key for OpenAI: ")    # enter OpenAI API key
