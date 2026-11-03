@@ -179,18 +179,18 @@ demo.launch(
 )
 
 # Infinite execution loop forces Google Colab to maintain background server routes
-import time
-try:
-    print("Keep-alive loop active. EngageAI is listening!")
-    while True:
-        time.sleep(60)
-except KeyboardInterrupt:
-    print("Gradio link stopped manually.")
+#import time
+#try:
+    #print("Keep-alive loop active. EngageAI is listening!")
+    #while True:
+        #time.sleep(60)
+#except KeyboardInterrupt:
+    #print("Gradio link stopped manually.")
 
 
 
-import os
-from google.colab import files
+#import os
+#from google.colab import files
 
 # Force Colab to save the notebook structure directly as a Python script
 os.system("jupyter nbconvert --to script *.ipynb")
